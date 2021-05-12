@@ -13,7 +13,7 @@ funcBuildServer() {
     echo 'server module building...'
     export GOPROXY=https://goproxy.cn
     export GO111MODULE=on
-    cd $serverDir
+    cd $baseDir
     go mod tidy
     GOOS=linux GOARCH=amd64 go build -o $baseDir/go-vben-admin
     if [  -f $baseDir/go-vben-admin ]; then
