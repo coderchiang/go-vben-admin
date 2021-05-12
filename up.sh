@@ -1,14 +1,21 @@
 #!/bin/bash
 
-### 构建要求
-### 1. go >= 1.13
-### 2. node >= 8
 
 baseDir=`echo $PWD`
 webDir=`echo $baseDir/web`
 dataDir=`echo $baseDir/data`
+goVersion=`echo "go1.16.4.linux-amd64"`
+nodeVersion=`echo "node-v14.17.0-linux-x64"`
 
+funcInstallGo(){
+  cd /usr/local
 
+ wget https://golang.google.cn/dl/$goVersion.tar.gz
+ tar  -zxvf $goVersion.tar.gz
+ rm -rf $goVersion.tar.gz
+ ln -s /usr/local/go/bin/go  /usr/bin/go
+ ln -s /usr/local/go/bin/gofmt  /usr/bin/gofmt
+}
 funcBuildServer() {
     echo 'server module building...'
     export GOPROXY=https://goproxy.cn
@@ -26,7 +33,19 @@ funcBuildServer() {
 
 }
 
-
+funcInstallNodejs(){
+  cd /usr/local
+wget https://nodejs.org/dist/v14.17.0/$nodeVersion.tar.xz
+tar xvJf $nodeVersion.tar.xz
+rm -f  $nodeVersion.tar.xz
+mv $nodeVersion node
+ln -s /usr/local/node/bin/node  /usr/bin/node
+ln -s /usr/local/node/bin/npm  /usr/bin/npm
+ln -s /usr/local/node/bin/npx  /usr/bin/npx
+npm install yarn -g
+ln -s /usr/local/node/bin/yarn /usr/bin/yarn
+ln -s /usr/local/node/bin/yarnpkg /usr/bin/yarnpkg
+}
 
 funcBuildSite() {
     echo 'web module building...'
@@ -73,11 +92,14 @@ funcDockerInitMysqlAndRedis(){
 }
   funcStartServer(){
       #start server
-  cd  $baseDir
-    nohup ./go-vben-admin &
+    cd  $baseDir
+    nohup ./go-vben-admin &2>&1
+    echo 'server start  success'
+    echo 'listen port:80'
   }
-
+funcInstallGo
 funcBuildServer
+funcInstallNodejs
 funcBuildSite
 funcInstallDokcer
 funcDockerInitMysqlAndRedis
