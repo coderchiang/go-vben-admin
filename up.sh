@@ -88,7 +88,7 @@ funcDockerInitMysqlAndRedis(){
   funcStartServer(){
       #start server
     cd  $baseDir
-    nohup ./go-vben-admin &2>&1
+    nohup ./go-vben-admin &
     echo 'server start  success'
     echo 'listen port:80'
   }
