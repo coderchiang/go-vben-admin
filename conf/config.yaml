@@ -1,7 +1,7 @@
 system:
   db-type: mysql
   cache-type: redis
-  port: '8000'
+  port: '80'
   env: 'env'  # Change to "develop" to skip authentication for development mode
 
 mysql:
