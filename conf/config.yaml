@@ -1,0 +1,46 @@
+system:
+  db-type: mysql
+  cache-type: redis
+  port: '8000'
+  env: 'env'  # Change to "develop" to skip authentication for development mode
+
+mysql:
+  username: root
+  password: '123456'
+  path: '127.0.0.1:3306'
+  dbname: 'gin-vben-admin'
+  config: 'charset=utf8mb4&parseTime=true&loc=Local&timeout=1s'
+  max-idle-conns: 10
+  max-open-conns: 10
+  log-mode: false
+
+redis:
+  addr: '127.0.01:6379'
+  password:
+  db:
+
+log:
+  level: info
+  format: console
+  prefix: '[gin-vben-admin]'
+  director: log
+  link-name: latest_log
+  showLine: true
+  encode-level: LowercaseColorLevelEncoder
+  stacktrace-key: stacktrace
+  log-in-console: true
+
+jwt:
+  signing-key: 'jjm'
+
+captcha:
+  key-long: 4
+  img-width: 120
+  img-height: 40
+
+casbin:
+  model-path: './resource/rbac_model.conf'
+
+baidumap:
+  ip_location_url: "http://api.map.baidu.com/location/ip?ak="
+  ak: "vMA1yoLuen421tmxsV8fFCGStbertF10jjm"

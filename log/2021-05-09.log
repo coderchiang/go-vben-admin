@@ -1,0 +1,319 @@
+[gin-vben-admin]2021/05/09 - 19:28:12.879	[31merror[0m	DefaultDB 数据库启动异常	{"err": "dial tcp 192.168.184.200:3306: i/o timeout"}
+[gin-vben-admin]2021/05/09 - 19:30:54.032	[31merror[0m	DefaultDB 数据库启动异常	{"err": "dial tcp 192.168.184.200:3306: i/o timeout"}
+[gin-vben-admin]2021/05/09 - 19:31:44.005	[34minfo[0m	register table success
+[gin-vben-admin]2021/05/09 - 19:31:44.070	[34minfo[0m	use middleware cors logger recovery
+[gin-vben-admin]2021/05/09 - 19:31:44.070	[34minfo[0m	routers register success
+[gin-vben-admin]2021/05/09 - 19:34:33.738	[34minfo[0m	200      3.9978ms             ::1 GET /api/system/menu?_t=1620560073714
+[gin-vben-admin]2021/05/09 - 19:34:44.758	[34minfo[0m	200      3.9977ms             ::1 GET /api/system/menu?_t=1620560084732
+
+[gin-vben-admin] 2021/05/09 - 20:11:53	[34minfo[0m	register table success
+[gin-vben-admin] 2021/05/09 - 20:11:53	[34minfo[0m	use middleware cors logger recovery
+[gin-vben-admin] 2021/05/09 - 20:11:53	[34minfo[0m	routers register success
+[gin-vben-admin] 2021/05/09 - 20:13:18	[34minfo[0m	200      2.9918ms             ::1 GET /api/system/menu?_t=1620562398051
+
+[gin-vben-admin] 2021/05/09 - 22:12:45	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[gin-vben-admin] 2021/05/09 - 22:12:45	[34minfo[0m	register table success
+[gin-vben-admin] 2021/05/09 - 22:12:45	[34minfo[0m	use middleware cors logger recovery
+[gin-vben-admin] 2021/05/09 - 22:12:45	[34minfo[0m	routers register success
+[gin-vben-admin] 2021/05/09 - 22:25:43	[34minfo[0m	200      3.9972ms             ::1 GET /api/system/menu?_t=1620570343537 
+
+[gin-vben-admin] 2021/05/09 - 22:26:19	[34minfo[0m	200      3.9978ms             ::1 GET /api/system/menu?_t=1620570379019 
+
+[gin-vben-admin] 2021/05/09 - 23:15:40	[34minfo[0m	200      2.9783ms             ::1 GET /api/system/menu?_t=1620573340848 
+
+[gin-vben-admin] 2021/05/09 - 23:16:24	[34minfo[0m	200      5.0139ms             ::1 GET /api/system/menu?_t=1620573384557 
+
+[gin-vben-admin] 2021/05/09 - 23:19:14	[34minfo[0m	200      3.9977ms             ::1 GET /api/system/menu?_t=1620573554706 
+
+[gin-vben-admin] 2021/05/09 - 23:19:16	[34minfo[0m	200      3.9976ms             ::1 GET /api/system/menu?_t=1620573556290 
+
+[gin-vben-admin] 2021/05/09 - 23:19:43	[34minfo[0m	200      6.9951ms             ::1 GET /api/system/menu?_t=1620573583080 
+
+[gin-vben-admin] 2021/05/09 - 23:19:48	[34minfo[0m	200      2.9981ms             ::1 GET /api/system/menu?_t=1620573588653 
+
+[gin-vben-admin] 2021/05/09 - 23:20:00	[34minfo[0m	200       4.998ms             ::1 GET /api/system/menu?_t=1620573600840 
+
+[gin-vben-admin] 2021/05/09 - 23:20:25	[34minfo[0m	200      2.9987ms             ::1 GET /api/system/menu?_t=1620573625018 
+
+[gin-vben-admin] 2021/05/09 - 23:20:47	[34minfo[0m	200      2.9982ms             ::1 GET /api/system/menu?_t=1620573647165 
+
+[gin-vben-admin] 2021/05/09 - 23:21:07	[34minfo[0m	200      4.0108ms             ::1 GET /api/system/menu?_t=1620573666984 
+
+[gin-vben-admin] 2021/05/09 - 23:21:10	[34minfo[0m	200      2.9974ms             ::1 GET /api/system/menu?_t=1620573670289 
+
+[gin-vben-admin] 2021/05/09 - 23:21:12	[34minfo[0m	200      2.9978ms             ::1 GET /api/system/menu?_t=1620573672104 
+
+[gin-vben-admin] 2021/05/09 - 23:21:18	[34minfo[0m	200      3.9972ms             ::1 GET /api/system/menu?_t=1620573678643 
+
+[gin-vben-admin] 2021/05/09 - 23:21:21	[34minfo[0m	200      3.9981ms             ::1 GET /api/system/menu?_t=1620573681011 
+
+[gin-vben-admin] 2021/05/09 - 23:22:52	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[gin-vben-admin] 2021/05/09 - 23:22:53	[34minfo[0m	register table success
+[gin-vben-admin] 2021/05/09 - 23:22:53	[34minfo[0m	use middleware cors logger recovery
+[gin-vben-admin] 2021/05/09 - 23:22:53	[34minfo[0m	routers register success
+[gin-vben-admin] 2021/05/09 - 23:22:58	[34minfo[0m	200      6.9946ms             ::1 GET /api/system/menu?_t=1620573777969 
+[gin-vben-admin] 2021/05/09 - 23:23:00	[34minfo[0m	200      2.9983ms             ::1 GET /api/system/menu?_t=1620573780794 
+[gin-vben-admin] 2021/05/09 - 23:24:26	[33mwarn[0m	Cache Redis error	{"warn": "dial tcp 192.168.184.200:6379: connectex: No connection could be made because the target machine actively refused it."}
+[gin-vben-admin] 2021/05/09 - 23:24:26	[34minfo[0m	200      4.9977ms             ::1 GET /api/system/menu?_t=1620573866503 
+[gin-vben-admin] 2021/05/09 - 23:25:07	[33mwarn[0m	Cache Redis error	{"warn": "dial tcp 192.168.184.200:6379: connectex: No connection could be made because the target machine actively refused it."}
+[gin-vben-admin] 2021/05/09 - 23:25:07	[34minfo[0m	200       2.999ms             ::1 GET /api/system/menu?_t=1620573907631 
+[gin-vben-admin] 2021/05/09 - 23:25:12	[34minfo[0m	200      3.0011ms             ::1 GET /api/system/menu?_t=1620573911924 
+[gin-vben-admin] 2021/05/09 - 23:25:16	[34minfo[0m	200      3.0126ms             ::1 GET /api/system/menu?_t=1620573916099 
+[gin-vben-admin] 2021/05/09 - 23:25:18	[34minfo[0m	200     13.9922ms             ::1 GET /api/system/menu?_t=1620573918144 
+[gin-vben-admin] 2021/05/09 - 23:25:20	[34minfo[0m	200      3.0127ms             ::1 GET /api/system/menu?_t=1620573920890 
+[gin-vben-admin] 2021/05/09 - 23:26:24	[33mwarn[0m	Cache Redis error	{"warn": "dial tcp 192.168.184.200:6379: connectex: No connection could be made because the target machine actively refused it."}
+[gin-vben-admin] 2021/05/09 - 23:26:24	[34minfo[0m	200      3.9989ms             ::1 GET /api/system/menu?_t=1620573984938 
+[gin-vben-admin] 2021/05/09 - 23:26:47	[34minfo[0m	200      6.0141ms             ::1 GET /api/system/menu?_t=1620574007796 
+[gin-vben-admin] 2021/05/09 - 23:26:50	[34minfo[0m	200      3.9978ms             ::1 GET /api/system/menu?_t=1620574010862 
+[gin-vben-admin] 2021/05/09 - 23:28:50	[34minfo[0m	200      4.0154ms             ::1 GET /api/system/menu?_t=1620574130138 
+[gin-vben-admin] 2021/05/09 - 23:28:51	[34minfo[0m	200      2.9984ms             ::1 GET /api/system/menu?_t=1620574131667 
+[gin-vben-admin] 2021/05/09 - 23:30:02	[33mwarn[0m	Cache Redis error	{"warn": "dial tcp 192.168.184.200:6379: connectex: No connection could be made because the target machine actively refused it."}
+[gin-vben-admin] 2021/05/09 - 23:30:03	[34minfo[0m	200      2.0069ms             ::1 GET /api/system/menu?_t=1620574203099 
+[gin-vben-admin] 2021/05/09 - 23:32:44	[34minfo[0m	200      2.9985ms             ::1 GET /api/system/menu?_t=1620574364809 
+[gin-vben-admin] 2021/05/09 - 23:33:21	[34minfo[0m	200      3.9982ms             ::1 GET /api/system/menu?_t=1620574401279 
+[gin-vben-admin] 2021/05/09 - 23:33:23	[34minfo[0m	200      4.9982ms             ::1 GET /api/system/menu?_t=1620574403680 
+[gin-vben-admin] 2021/05/09 - 23:33:25	[34minfo[0m	200      3.9985ms             ::1 GET /api/system/menu?_t=1620574405197 
+[gin-vben-admin] 2021/05/09 - 23:33:27	[34minfo[0m	200      4.9973ms             ::1 GET /api/system/menu?_t=1620574407220 
+[gin-vben-admin] 2021/05/09 - 23:33:28	[34minfo[0m	200      3.0173ms             ::1 GET /api/system/menu?_t=1620574408658 
+[gin-vben-admin] 2021/05/09 - 23:34:02	[34minfo[0m	200      5.0152ms             ::1 GET /api/system/menu?_t=1620574442911 
+[gin-vben-admin] 2021/05/09 - 23:34:04	[34minfo[0m	200      3.0023ms             ::1 GET /api/system/menu?_t=1620574444936 
+[gin-vben-admin] 2021/05/09 - 23:34:06	[34minfo[0m	200      3.0143ms             ::1 GET /api/system/menu?_t=1620574446369 
+[gin-vben-admin] 2021/05/09 - 23:34:07	[34minfo[0m	200      3.9982ms             ::1 GET /api/system/menu?_t=1620574447748 
+[gin-vben-admin] 2021/05/09 - 23:34:09	[34minfo[0m	200      1.9984ms             ::1 GET /api/system/menu?_t=1620574449090 
+[gin-vben-admin] 2021/05/09 - 23:34:10	[34minfo[0m	200      3.0023ms             ::1 GET /api/system/menu?_t=1620574450461 
+[gin-vben-admin] 2021/05/09 - 23:34:11	[34minfo[0m	200       4.013ms             ::1 GET /api/system/menu?_t=1620574451790 
+[gin-vben-admin] 2021/05/09 - 23:34:13	[34minfo[0m	200      3.9982ms             ::1 GET /api/system/menu?_t=1620574453703 
+[gin-vben-admin] 2021/05/09 - 23:34:16	[34minfo[0m	200      2.9847ms             ::1 GET /api/system/menu?_t=1620574456739 
+[gin-vben-admin] 2021/05/09 - 23:34:19	[34minfo[0m	200      6.9836ms             ::1 POST /api/system/menu/edit 
+[gin-vben-admin] 2021/05/09 - 23:34:19	[34minfo[0m	200      3.9975ms             ::1 GET /api/system/menu?_t=1620574459128 
+[gin-vben-admin] 2021/05/09 - 23:34:37	[34minfo[0m	200      3.0076ms             ::1 GET /api/system/menu?_t=1620574477453 
+[gin-vben-admin] 2021/05/09 - 23:35:15	[34minfo[0m	200      5.9828ms             ::1 GET /api/system/menu?status=1&_t=1620574515168 
+[gin-vben-admin] 2021/05/09 - 23:35:56	[34minfo[0m	200      4.0004ms             ::1 GET /api/system/menu?status=1&_t=1620574556167 
+[gin-vben-admin] 2021/05/09 - 23:40:06	[34minfo[0m	200      5.9968ms       127.0.0.1 GET /api/system/menu?_t=1620574806360 
+[gin-vben-admin] 2021/05/09 - 23:40:08	[34minfo[0m	200      3.6221ms       127.0.0.1 GET /api/system/menu?_t=1620574808790 
+[gin-vben-admin] 2021/05/09 - 23:44:43	[34minfo[0m	200      5.9967ms             ::1 GET /api/system/menu?_t=1620575083444 
+[gin-vben-admin] 2021/05/09 - 23:44:50	[34minfo[0m	200       3.012ms       127.0.0.1 GET /api/system/menu?_t=1620575090106 
+[gin-vben-admin] 2021/05/09 - 23:44:52	[34minfo[0m	200      9.9789ms       127.0.0.1 POST /api/system/menu/edit 
+[gin-vben-admin] 2021/05/09 - 23:44:52	[34minfo[0m	200      2.9988ms       127.0.0.1 GET /api/system/menu?_t=1620575092815 
+[gin-vben-admin] 2021/05/09 - 23:44:55	[34minfo[0m	200      4.0119ms       127.0.0.1 GET /api/system/menu?_t=1620575095615 
+[gin-vben-admin] 2021/05/10 - 01:00:58	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[gin-vben-admin] 2021/05/10 - 01:00:58	[34minfo[0m	register table success
+[gin-vben-admin] 2021/05/10 - 01:00:58	[34minfo[0m	use middleware cors logger recovery
+[gin-vben-admin] 2021/05/10 - 01:00:58	[34minfo[0m	routers register success
+[gin-vben-admin] 2021/05/10 - 01:06:24	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[gin-vben-admin] 2021/05/10 - 01:06:24	[34minfo[0m	register table success
+[gin-vben-admin] 2021/05/10 - 01:06:24	[34minfo[0m	use middleware cors logger recovery
+[gin-vben-admin] 2021/05/10 - 01:06:24	[34minfo[0m	routers register success
+[gin-vben-admin] 2021/05/10 - 01:06:34	[34minfo[0m	200      3.9982ms       127.0.0.1 GET /api/system/menu?_t=1620579994755 
+[gin-vben-admin] 2021/05/10 - 01:06:46	[34minfo[0m	200           1ns       127.0.0.1 POST /api/login 
+[gin-vben-admin] 2021/05/10 - 01:31:24	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[gin-vben-admin] 2021/05/10 - 01:31:25	[34minfo[0m	register table success
+[gin-vben-admin] 2021/05/10 - 01:31:25	[34minfo[0m	use middleware cors logger recovery
+[gin-vben-admin] 2021/05/10 - 01:31:25	[34minfo[0m	routers register success
+[gin-vben-admin] 2021/05/10 - 01:31:45	[31merror[0m	创建操作日志失败	{"err": "Error 1366: Incorrect string value: '\\xE7\\x94\\xA8\\xE6\\x88\\xB7...' for column 'title' at row 1"}
+[gin-vben-admin] 2021/05/10 - 01:31:45	[34minfo[0m	200           1ns       127.0.0.1 POST /api/login 
+[gin-vben-admin] 2021/05/10 - 01:34:24	[31merror[0m	创建操作日志失败	{"err": "Error 1366: Incorrect string value: '\\xE7\\x94\\xA8\\xE6\\x88\\xB7...' for column 'title' at row 1"}
+[gin-vben-admin] 2021/05/10 - 01:34:24	[34minfo[0m	200           1ns       127.0.0.1 POST /api/login 
+[gin-vben-admin] 2021/05/10 - 01:38:53	[31merror[0m	创建操作日志失败	{"err": "Error 1366: Incorrect string value: '\\xE5\\x86\\x85\\xE9\\x83\\xA8...' for column 'oper_location' at row 1"}
+[gin-vben-admin] 2021/05/10 - 01:38:53	[34minfo[0m	200           1ns       127.0.0.1 POST /api/login 
+[gin-vben-admin] 2021/05/10 - 01:45:41	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[gin-vben-admin] 2021/05/10 - 01:45:41	[34minfo[0m	register table success
+[gin-vben-admin] 2021/05/10 - 01:45:41	[34minfo[0m	use middleware cors logger recovery
+[gin-vben-admin] 2021/05/10 - 01:45:41	[34minfo[0m	routers register success
+[gin-vben-admin] 2021/05/10 - 01:46:47	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[gin-vben-admin] 2021/05/10 - 01:46:47	[34minfo[0m	register table success
+[gin-vben-admin] 2021/05/10 - 01:46:47	[34minfo[0m	use middleware cors logger recovery
+[gin-vben-admin] 2021/05/10 - 01:46:47	[34minfo[0m	routers register success
+[gin-vben-admin] 2021/05/10 - 01:48:29	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[gin-vben-admin] 2021/05/10 - 01:48:29	[34minfo[0m	register table success
+[gin-vben-admin] 2021/05/10 - 01:48:29	[34minfo[0m	use middleware cors logger recovery
+[gin-vben-admin] 2021/05/10 - 01:48:29	[34minfo[0m	routers register success
+[gin-vben-admin] 2021/05/10 - 01:48:57	[34minfo[0m	200           1ns       127.0.0.1 POST /api/login 
+[gin-vben-admin] 2021/05/10 - 01:50:39	[34minfo[0m	200      3.0162ms       127.0.0.1 GET /api/system/menu?_t=1620582639953 
+[gin-vben-admin] 2021/05/10 - 02:25:40	[34minfo[0m	200      9.9953ms       127.0.0.1 GET /api/system/menu?_t=1620584740126 
+[gin-vben-admin] 2021/05/10 - 02:25:47	[34minfo[0m	200      9.9948ms       127.0.0.1 GET /api/system/menu?_t=1620584747827 
+[gin-vben-admin] 2021/05/10 - 02:25:58	[34minfo[0m	200      3.1511ms       127.0.0.1 GET /api/system/menu?_t=1620584758140 
+[gin-vben-admin] 2021/05/10 - 02:28:48	[34minfo[0m	200     21.4974ms       127.0.0.1 GET /api/system/menu?_t=1620584928495 
+[gin-vben-admin] 2021/05/10 - 02:28:51	[34minfo[0m	200      3.7777ms       127.0.0.1 GET /api/system/menu?_t=1620584931847 
+[gin-vben-admin] 2021/05/10 - 02:29:00	[34minfo[0m	200      2.9986ms       127.0.0.1 GET /api/system/menu?_t=1620584940354 
+[gin-vben-admin] 2021/05/10 - 02:29:49	[34minfo[0m	200      3.0019ms       127.0.0.1 GET /api/system/menu?_t=1620584989231 
+[gin-vben-admin] 2021/05/10 - 02:30:01	[34minfo[0m	200      2.9798ms       127.0.0.1 GET /api/system/menu?_t=1620585001086 
+[gin-vben-admin] 2021/05/10 - 02:30:09	[34minfo[0m	200      2.9978ms       127.0.0.1 GET /api/system/menu?_t=1620585009153 
+[gin-vben-admin] 2021/05/10 - 02:30:17	[34minfo[0m	200     53.0249ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 02:30:17	[34minfo[0m	200      2.9984ms       127.0.0.1 GET /api/system/menu?_t=1620585017396 
+[gin-vben-admin] 2021/05/10 - 02:31:31	[34minfo[0m	200      3.0171ms       127.0.0.1 GET /api/system/menu?_t=1620585091559 
+[gin-vben-admin] 2021/05/10 - 02:32:00	[34minfo[0m	200      4.0219ms       127.0.0.1 GET /api/system/menu?_t=1620585120674 
+[gin-vben-admin] 2021/05/10 - 02:32:38	[34minfo[0m	200     17.9977ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 02:32:38	[34minfo[0m	200      3.9981ms       127.0.0.1 GET /api/system/menu?_t=1620585158836 
+[gin-vben-admin] 2021/05/10 - 02:34:29	[34minfo[0m	200      3.9982ms       127.0.0.1 GET /api/system/menu?_t=1620585269695 
+[gin-vben-admin] 2021/05/10 - 02:35:04	[34minfo[0m	200      9.2428ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 02:35:04	[34minfo[0m	200      2.9965ms       127.0.0.1 GET /api/system/menu?_t=1620585304489 
+[gin-vben-admin] 2021/05/10 - 02:37:13	[34minfo[0m	200      3.9965ms       127.0.0.1 GET /api/system/menu?_t=1620585433054 
+[gin-vben-admin] 2021/05/10 - 02:50:20	[34minfo[0m	200      4.2149ms       127.0.0.1 GET /api/system/menu?_t=1620586220069 
+[gin-vben-admin] 2021/05/10 - 02:50:22	[34minfo[0m	200      3.9978ms       127.0.0.1 GET /api/system/menu?_t=1620586222640 
+[gin-vben-admin] 2021/05/10 - 02:50:35	[34minfo[0m	200      7.0869ms       127.0.0.1 GET /api/system/menu?_t=1620586235138 
+[gin-vben-admin] 2021/05/10 - 02:51:46	[34minfo[0m	200      3.9982ms       127.0.0.1 GET /api/system/menu?_t=1620586306251 
+[gin-vben-admin] 2021/05/10 - 02:53:53	[34minfo[0m	200      2.9977ms       127.0.0.1 GET /api/system/menu?_t=1620586433327 
+[gin-vben-admin] 2021/05/10 - 02:53:55	[34minfo[0m	200     25.9895ms       127.0.0.1 POST /api/system/menu/add 
+[gin-vben-admin] 2021/05/10 - 02:53:55	[34minfo[0m	200      3.9979ms       127.0.0.1 GET /api/system/menu?_t=1620586435059 
+[gin-vben-admin] 2021/05/10 - 02:56:40	[34minfo[0m	200      4.9121ms       127.0.0.1 GET /api/system/menu?_t=1620586600205 
+[gin-vben-admin] 2021/05/10 - 02:56:46	[34minfo[0m	200       2.998ms       127.0.0.1 GET /api/system/menu?_t=1620586606201 
+[gin-vben-admin] 2021/05/10 - 02:56:48	[34minfo[0m	200      8.1209ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 02:56:48	[34minfo[0m	200      2.9916ms       127.0.0.1 GET /api/system/menu?_t=1620586608271 
+[gin-vben-admin] 2021/05/10 - 02:57:35	[34minfo[0m	200       2.998ms       127.0.0.1 GET /api/system/menu?_t=1620586655296 
+[gin-vben-admin] 2021/05/10 - 02:57:54	[34minfo[0m	200     13.9922ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 02:57:54	[34minfo[0m	200      3.9983ms       127.0.0.1 GET /api/system/menu?_t=1620586674129 
+[gin-vben-admin] 2021/05/10 - 03:02:42	[34minfo[0m	200      4.0169ms       127.0.0.1 GET /api/system/menu?_t=1620586962055 
+[gin-vben-admin] 2021/05/10 - 03:03:02	[34minfo[0m	200     11.9959ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:03:03	[34minfo[0m	200      2.9945ms       127.0.0.1 GET /api/system/menu?_t=1620586982889 
+[gin-vben-admin] 2021/05/10 - 03:04:47	[34minfo[0m	200      3.2953ms       127.0.0.1 GET /api/system/menu?_t=1620587086988 
+[gin-vben-admin] 2021/05/10 - 03:04:49	[34minfo[0m	200       3.998ms       127.0.0.1 GET /api/system/menu?_t=1620587089201 
+[gin-vben-admin] 2021/05/10 - 03:05:11	[34minfo[0m	200       8.996ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:05:11	[34minfo[0m	200      3.9983ms       127.0.0.1 GET /api/system/menu?_t=1620587111617 
+[gin-vben-admin] 2021/05/10 - 03:05:27	[34minfo[0m	200      4.9985ms       127.0.0.1 GET /api/system/menu?_t=1620587127722 
+[gin-vben-admin] 2021/05/10 - 03:05:31	[34minfo[0m	200      3.9699ms       127.0.0.1 GET /api/system/menu?_t=1620587131171 
+[gin-vben-admin] 2021/05/10 - 03:05:50	[34minfo[0m	200       7.996ms       127.0.0.1 POST /api/system/menu/add 
+[gin-vben-admin] 2021/05/10 - 03:05:50	[34minfo[0m	200      3.1016ms       127.0.0.1 GET /api/system/menu?_t=1620587150280 
+[gin-vben-admin] 2021/05/10 - 03:07:12	[34minfo[0m	200       4.006ms       127.0.0.1 GET /api/system/menu?_t=1620587232665 
+[gin-vben-admin] 2021/05/10 - 03:07:30	[34minfo[0m	200      6.9987ms       127.0.0.1 POST /api/system/menu/add 
+[gin-vben-admin] 2021/05/10 - 03:07:30	[34minfo[0m	200      3.9775ms       127.0.0.1 GET /api/system/menu?_t=1620587250715 
+[gin-vben-admin] 2021/05/10 - 03:07:59	[34minfo[0m	200      4.1085ms       127.0.0.1 GET /api/system/menu?_t=1620587279234 
+[gin-vben-admin] 2021/05/10 - 03:08:05	[34minfo[0m	200      3.6842ms       127.0.0.1 GET /api/system/menu?_t=1620587285276 
+[gin-vben-admin] 2021/05/10 - 03:08:07	[34minfo[0m	200      9.9954ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:08:07	[34minfo[0m	200      4.9318ms       127.0.0.1 GET /api/system/menu?_t=1620587287059 
+[gin-vben-admin] 2021/05/10 - 03:08:10	[34minfo[0m	200      2.9988ms       127.0.0.1 GET /api/system/menu?_t=1620587290745 
+[gin-vben-admin] 2021/05/10 - 03:08:22	[34minfo[0m	200      16.942ms       127.0.0.1 POST /api/system/menu/add 
+[gin-vben-admin] 2021/05/10 - 03:08:22	[34minfo[0m	200       3.998ms       127.0.0.1 GET /api/system/menu?_t=1620587302427 
+[gin-vben-admin] 2021/05/10 - 03:08:27	[34minfo[0m	200     10.9952ms       127.0.0.1 DELETE /api/system/menu/del 
+[gin-vben-admin] 2021/05/10 - 03:08:27	[34minfo[0m	200      5.9977ms       127.0.0.1 GET /api/system/menu?_t=1620587307100 
+[gin-vben-admin] 2021/05/10 - 03:08:29	[34minfo[0m	200     14.0728ms       127.0.0.1 DELETE /api/system/menu/del 
+[gin-vben-admin] 2021/05/10 - 03:08:29	[34minfo[0m	200      2.9991ms       127.0.0.1 GET /api/system/menu?_t=1620587309665 
+[gin-vben-admin] 2021/05/10 - 03:08:32	[34minfo[0m	200     90.9484ms       127.0.0.1 DELETE /api/system/menu/del 
+[gin-vben-admin] 2021/05/10 - 03:08:32	[34minfo[0m	200      6.9961ms       127.0.0.1 GET /api/system/menu?_t=1620587312433 
+[gin-vben-admin] 2021/05/10 - 03:08:35	[34minfo[0m	200     10.1644ms       127.0.0.1 DELETE /api/system/menu/del 
+[gin-vben-admin] 2021/05/10 - 03:08:35	[34minfo[0m	200      8.9555ms       127.0.0.1 GET /api/system/menu?_t=1620587315312 
+[gin-vben-admin] 2021/05/10 - 03:08:41	[34minfo[0m	200     16.3132ms       127.0.0.1 DELETE /api/system/menu/del 
+[gin-vben-admin] 2021/05/10 - 03:08:41	[34minfo[0m	200      3.9986ms       127.0.0.1 GET /api/system/menu?_t=1620587321293 
+[gin-vben-admin] 2021/05/10 - 03:08:45	[34minfo[0m	200      8.2157ms       127.0.0.1 DELETE /api/system/menu/del 
+[gin-vben-admin] 2021/05/10 - 03:08:46	[34minfo[0m	200      3.9898ms       127.0.0.1 GET /api/system/menu?_t=1620587325932 
+[gin-vben-admin] 2021/05/10 - 03:08:49	[34minfo[0m	200      8.9947ms       127.0.0.1 DELETE /api/system/menu/del 
+[gin-vben-admin] 2021/05/10 - 03:08:49	[34minfo[0m	200      3.9971ms       127.0.0.1 GET /api/system/menu?_t=1620587329408 
+[gin-vben-admin] 2021/05/10 - 03:09:18	[34minfo[0m	200      2.9993ms       127.0.0.1 GET /api/system/menu?_t=1620587358741 
+[gin-vben-admin] 2021/05/10 - 03:09:21	[34minfo[0m	200      3.9979ms       127.0.0.1 GET /api/system/menu?_t=1620587361252 
+[gin-vben-admin] 2021/05/10 - 03:09:22	[34minfo[0m	200      3.0028ms       127.0.0.1 GET /api/system/menu?_t=1620587362276 
+[gin-vben-admin] 2021/05/10 - 03:09:23	[34minfo[0m	200      3.9979ms       127.0.0.1 GET /api/system/menu?_t=1620587363768 
+[gin-vben-admin] 2021/05/10 - 03:10:26	[34minfo[0m	200      3.0053ms       127.0.0.1 GET /api/system/menu?_t=1620587426266 
+[gin-vben-admin] 2021/05/10 - 03:11:22	[34minfo[0m	200      8.9953ms       127.0.0.1 POST /api/system/menu/add 
+[gin-vben-admin] 2021/05/10 - 03:11:23	[34minfo[0m	200      2.9799ms       127.0.0.1 GET /api/system/menu?_t=1620587482894 
+[gin-vben-admin] 2021/05/10 - 03:11:39	[34minfo[0m	200      4.0121ms       127.0.0.1 GET /api/system/menu?_t=1620587499919 
+[gin-vben-admin] 2021/05/10 - 03:11:46	[34minfo[0m	200      6.9972ms       127.0.0.1 GET /api/system/menu?_t=1620587506247 
+[gin-vben-admin] 2021/05/10 - 03:11:50	[34minfo[0m	200      6.1557ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:11:50	[34minfo[0m	200      2.9982ms       127.0.0.1 GET /api/system/menu?_t=1620587510345 
+[gin-vben-admin] 2021/05/10 - 03:11:57	[34minfo[0m	200      2.9999ms       127.0.0.1 GET /api/system/menu?_t=1620587517655 
+[gin-vben-admin] 2021/05/10 - 03:12:02	[34minfo[0m	200      7.2288ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:12:02	[34minfo[0m	200       3.997ms       127.0.0.1 GET /api/system/menu?_t=1620587522201 
+[gin-vben-admin] 2021/05/10 - 03:12:28	[34minfo[0m	200      3.1066ms       127.0.0.1 GET /api/system/menu?_t=1620587548344 
+[gin-vben-admin] 2021/05/10 - 03:12:36	[34minfo[0m	200      5.7241ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:12:36	[34minfo[0m	200      3.2429ms       127.0.0.1 GET /api/system/menu?_t=1620587556712 
+[gin-vben-admin] 2021/05/10 - 03:18:43	[34minfo[0m	200       3.998ms       127.0.0.1 GET /api/system/menu?_t=1620587923210 
+[gin-vben-admin] 2021/05/10 - 03:24:03	[34minfo[0m	200      3.0855ms       127.0.0.1 GET /api/system/menu?_t=1620588243293 
+[gin-vben-admin] 2021/05/10 - 03:24:20	[34minfo[0m	200      4.0517ms       127.0.0.1 GET /api/system/menu?_t=1620588260808 
+[gin-vben-admin] 2021/05/10 - 03:25:30	[34minfo[0m	200      7.9957ms       127.0.0.1 POST /api/system/menu/add 
+[gin-vben-admin] 2021/05/10 - 03:25:30	[34minfo[0m	200      3.0038ms       127.0.0.1 GET /api/system/menu?_t=1620588330492 
+[gin-vben-admin] 2021/05/10 - 03:25:37	[34minfo[0m	200     20.9886ms       127.0.0.1 GET /api/system/menu?_t=1620588337191 
+[gin-vben-admin] 2021/05/10 - 03:25:40	[34minfo[0m	200      6.4236ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:25:41	[34minfo[0m	200       4.963ms       127.0.0.1 GET /api/system/menu?_t=1620588340983 
+[gin-vben-admin] 2021/05/10 - 03:29:03	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[gin-vben-admin] 2021/05/10 - 03:29:03	[34minfo[0m	register table success
+[gin-vben-admin] 2021/05/10 - 03:29:03	[34minfo[0m	use middleware cors logger recovery
+[gin-vben-admin] 2021/05/10 - 03:29:03	[34minfo[0m	routers register success
+[gin-vben-admin] 2021/05/10 - 03:29:54	[34minfo[0m	200      3.8578ms       127.0.0.1 GET /api/system/menu?_t=1620588594813 
+[gin-vben-admin] 2021/05/10 - 03:30:04	[34minfo[0m	200      5.0552ms       127.0.0.1 GET /api/system/menu?_t=1620588604215 
+[gin-vben-admin] 2021/05/10 - 03:30:47	[34minfo[0m	200     16.9913ms       127.0.0.1 POST /api/system/menu/add 
+[gin-vben-admin] 2021/05/10 - 03:30:47	[34minfo[0m	200      4.9978ms       127.0.0.1 GET /api/system/menu?_t=1620588647431 
+[gin-vben-admin] 2021/05/10 - 03:31:24	[34minfo[0m	200      2.9998ms       127.0.0.1 GET /api/system/menu?_t=1620588684545 
+[gin-vben-admin] 2021/05/10 - 03:32:08	[34minfo[0m	200     10.6207ms       127.0.0.1 POST /api/system/menu/add 
+[gin-vben-admin] 2021/05/10 - 03:32:08	[34minfo[0m	200      2.9985ms       127.0.0.1 GET /api/system/menu?_t=1620588728163 
+[gin-vben-admin] 2021/05/10 - 03:32:23	[34minfo[0m	200       4.997ms       127.0.0.1 GET /api/system/menu?_t=1620588743186 
+[gin-vben-admin] 2021/05/10 - 03:33:07	[34minfo[0m	200     14.9918ms       127.0.0.1 POST /api/system/menu/add 
+[gin-vben-admin] 2021/05/10 - 03:33:07	[34minfo[0m	200      3.0168ms       127.0.0.1 GET /api/system/menu?_t=1620588787513 
+[gin-vben-admin] 2021/05/10 - 03:34:05	[34minfo[0m	200      3.9977ms       127.0.0.1 GET /api/system/menu?_t=1620588845131 
+[gin-vben-admin] 2021/05/10 - 03:34:09	[34minfo[0m	200       3.861ms       127.0.0.1 GET /api/system/menu?_t=1620588849534 
+[gin-vben-admin] 2021/05/10 - 03:34:16	[34minfo[0m	200     14.0289ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:34:17	[34minfo[0m	200      2.9982ms       127.0.0.1 GET /api/system/menu?_t=1620588856897 
+[gin-vben-admin] 2021/05/10 - 03:34:22	[34minfo[0m	200      3.9945ms       127.0.0.1 GET /api/system/menu?_t=1620588862889 
+[gin-vben-admin] 2021/05/10 - 03:34:28	[34minfo[0m	200     11.9926ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:34:28	[34minfo[0m	200      5.1616ms       127.0.0.1 GET /api/system/menu?_t=1620588868039 
+[gin-vben-admin] 2021/05/10 - 03:34:34	[34minfo[0m	200      2.9986ms       127.0.0.1 GET /api/system/menu?_t=1620588874251 
+[gin-vben-admin] 2021/05/10 - 03:34:41	[34minfo[0m	200      8.0086ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:34:41	[34minfo[0m	200      3.9984ms       127.0.0.1 GET /api/system/menu?_t=1620588881290 
+[gin-vben-admin] 2021/05/10 - 03:34:52	[34minfo[0m	200      3.9976ms       127.0.0.1 GET /api/system/menu?_t=1620588892316 
+[gin-vben-admin] 2021/05/10 - 03:34:58	[34minfo[0m	200     13.9938ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:34:58	[34minfo[0m	200      3.0681ms       127.0.0.1 GET /api/system/menu?_t=1620588898579 
+[gin-vben-admin] 2021/05/10 - 03:35:07	[34minfo[0m	200      3.9984ms       127.0.0.1 GET /api/system/menu?_t=1620588907663 
+[gin-vben-admin] 2021/05/10 - 03:35:19	[34minfo[0m	200      7.9984ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:35:19	[34minfo[0m	200      4.9983ms       127.0.0.1 GET /api/system/menu?_t=1620588919002 
+[gin-vben-admin] 2021/05/10 - 03:35:27	[34minfo[0m	200      4.0138ms       127.0.0.1 GET /api/system/menu?_t=1620588927273 
+[gin-vben-admin] 2021/05/10 - 03:35:31	[34minfo[0m	200      3.9977ms       127.0.0.1 GET /api/system/menu?_t=1620588931743 
+[gin-vben-admin] 2021/05/10 - 03:35:34	[34minfo[0m	200      2.9986ms       127.0.0.1 GET /api/system/menu?_t=1620588934920 
+[gin-vben-admin] 2021/05/10 - 03:35:38	[34minfo[0m	200      3.8357ms       127.0.0.1 GET /api/system/menu?_t=1620588938511 
+[gin-vben-admin] 2021/05/10 - 03:35:41	[34minfo[0m	200       3.953ms       127.0.0.1 GET /api/system/menu?_t=1620588941311 
+[gin-vben-admin] 2021/05/10 - 03:35:44	[34minfo[0m	200       10.62ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:35:44	[34minfo[0m	200       3.014ms       127.0.0.1 GET /api/system/menu?_t=1620588944345 
+[gin-vben-admin] 2021/05/10 - 03:35:48	[34minfo[0m	200      2.9994ms       127.0.0.1 GET /api/system/menu?_t=1620588948313 
+[gin-vben-admin] 2021/05/10 - 03:35:51	[34minfo[0m	200       8.983ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:35:51	[34minfo[0m	200      3.0169ms       127.0.0.1 GET /api/system/menu?_t=1620588951130 
+[gin-vben-admin] 2021/05/10 - 03:36:02	[34minfo[0m	200     18.7381ms       127.0.0.1 DELETE /api/system/menu/del 
+[gin-vben-admin] 2021/05/10 - 03:36:02	[34minfo[0m	200      3.0831ms       127.0.0.1 GET /api/system/menu?_t=1620588962370 
+[gin-vben-admin] 2021/05/10 - 03:36:53	[34minfo[0m	200      5.9964ms       127.0.0.1 GET /api/system/menu?status=1&_t=1620589013403 
+[gin-vben-admin] 2021/05/10 - 03:37:15	[34minfo[0m	200      4.9422ms       127.0.0.1 GET /api/system/menu?status=1&_t=1620589035081 
+[gin-vben-admin] 2021/05/10 - 03:38:04	[34minfo[0m	200      3.9984ms       127.0.0.1 GET /api/system/menu?_t=1620589084092 
+[gin-vben-admin] 2021/05/10 - 03:38:25	[34minfo[0m	200      2.9985ms       127.0.0.1 GET /api/system/menu?_t=1620589105153 
+[gin-vben-admin] 2021/05/10 - 03:38:37	[34minfo[0m	200     48.9713ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:38:37	[34minfo[0m	200      5.0111ms       127.0.0.1 GET /api/system/menu?_t=1620589117571 
+[gin-vben-admin] 2021/05/10 - 03:38:42	[34minfo[0m	200     10.0136ms       127.0.0.1 GET /api/system/menu?_t=1620589122608 
+[gin-vben-admin] 2021/05/10 - 03:38:48	[34minfo[0m	200      7.9949ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:38:48	[34minfo[0m	200      2.8986ms       127.0.0.1 GET /api/system/menu?_t=1620589128447 
+[gin-vben-admin] 2021/05/10 - 03:38:57	[34minfo[0m	200      4.9334ms       127.0.0.1 GET /api/system/menu?_t=1620589137261 
+[gin-vben-admin] 2021/05/10 - 03:39:08	[34minfo[0m	200     10.9938ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 03:39:08	[34minfo[0m	200      4.0105ms       127.0.0.1 GET /api/system/menu?_t=1620589148475 
+[gin-vben-admin] 2021/05/10 - 03:39:50	[34minfo[0m	200      2.9798ms       127.0.0.1 GET /api/system/menu?_t=1620589190264 
+[gin-vben-admin] 2021/05/10 - 03:40:02	[34minfo[0m	200      4.9974ms       127.0.0.1 GET /api/system/menu?_t=1620589202907 
+[gin-vben-admin] 2021/05/10 - 03:40:12	[34minfo[0m	200      2.9996ms       127.0.0.1 GET /api/system/menu?_t=1620589212393 
+[gin-vben-admin] 2021/05/10 - 03:40:27	[34minfo[0m	200      4.0468ms       127.0.0.1 GET /api/system/menu?_t=1620589227247 
+[gin-vben-admin] 2021/05/10 - 03:49:34	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[gin-vben-admin] 2021/05/10 - 03:49:35	[34minfo[0m	register table success
+[gin-vben-admin] 2021/05/10 - 03:49:35	[34minfo[0m	use middleware cors logger recovery
+[gin-vben-admin] 2021/05/10 - 03:49:35	[34minfo[0m	routers register success
+[gin-vben-admin] 2021/05/10 - 03:49:49	[34minfo[0m	200           1ns       127.0.0.1 POST /api/login 
+[gin-vben-admin] 2021/05/10 - 03:49:58	[34minfo[0m	200      2.9985ms       127.0.0.1 GET /api/system/menu?_t=1620589798368 
+[gin-vben-admin] 2021/05/10 - 03:50:23	[34minfo[0m	200      2.9989ms       127.0.0.1 GET /api/system/menu?_t=1620589823512 
+[gin-vben-admin] 2021/05/10 - 03:51:05	[34minfo[0m	200      2.9989ms       127.0.0.1 GET /api/system/menu?_t=1620589865264 
+[gin-vben-admin] 2021/05/10 - 04:03:03	[34minfo[0m	200      3.9798ms       127.0.0.1 GET /api/system/menu?_t=1620590583672 
+[gin-vben-admin] 2021/05/10 - 04:03:37	[34minfo[0m	200      2.9988ms       127.0.0.1 GET /api/system/menu?_t=1620590617182 
+[gin-vben-admin] 2021/05/10 - 04:03:52	[34minfo[0m	200      3.9925ms       127.0.0.1 GET /api/system/menu?_t=1620590632467 
+[gin-vben-admin] 2021/05/10 - 04:04:34	[34minfo[0m	200       4.997ms       127.0.0.1 GET /api/system/menu?_t=1620590674874 
+[gin-vben-admin] 2021/05/10 - 04:04:47	[34minfo[0m	200      4.9807ms       127.0.0.1 GET /api/system/menu?_t=1620590686986 
+[gin-vben-admin] 2021/05/10 - 04:04:52	[34minfo[0m	200      2.9989ms       127.0.0.1 GET /api/system/menu?_t=1620590692542 
+[gin-vben-admin] 2021/05/10 - 04:04:55	[34minfo[0m	200      4.0041ms       127.0.0.1 GET /api/system/menu?_t=1620590695205 
+[gin-vben-admin] 2021/05/10 - 04:08:08	[34minfo[0m	200      3.9983ms       127.0.0.1 GET /api/system/menu?_t=1620590888078 
+[gin-vben-admin] 2021/05/10 - 04:23:15	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[gin-vben-admin] 2021/05/10 - 04:23:16	[34minfo[0m	register table success
+[gin-vben-admin] 2021/05/10 - 04:23:16	[34minfo[0m	use middleware cors logger recovery
+[gin-vben-admin] 2021/05/10 - 04:23:16	[34minfo[0m	routers register success
+[gin-vben-admin] 2021/05/10 - 04:23:30	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[gin-vben-admin] 2021/05/10 - 04:23:30	[34minfo[0m	register table success
+[gin-vben-admin] 2021/05/10 - 04:23:30	[34minfo[0m	use middleware cors logger recovery
+[gin-vben-admin] 2021/05/10 - 04:23:30	[34minfo[0m	routers register success
+[gin-vben-admin] 2021/05/10 - 04:23:42	[34minfo[0m	200           1ns       127.0.0.1 POST /api/login 
+[gin-vben-admin] 2021/05/10 - 04:25:27	[34minfo[0m	200      2.9983ms       127.0.0.1 GET /api/system/menu?_t=1620591927215 
+[gin-vben-admin] 2021/05/10 - 04:25:29	[34minfo[0m	200      2.9808ms       127.0.0.1 GET /api/system/menu?_t=1620591929052 
+[gin-vben-admin] 2021/05/10 - 04:25:30	[34minfo[0m	200      8.0149ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 04:25:30	[34minfo[0m	200      2.9804ms       127.0.0.1 GET /api/system/menu?_t=1620591930613 
+[gin-vben-admin] 2021/05/10 - 04:26:28	[34minfo[0m	200      4.0123ms       127.0.0.1 GET /api/system/menu?_t=1620591988148 
+[gin-vben-admin] 2021/05/10 - 04:26:36	[34minfo[0m	200      4.9834ms       127.0.0.1 GET /api/system/menu?_t=1620591996681 
+[gin-vben-admin] 2021/05/10 - 04:26:42	[34minfo[0m	200      6.9964ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 04:26:42	[34minfo[0m	200      3.9981ms       127.0.0.1 GET /api/system/menu?_t=1620592002405 
+[gin-vben-admin] 2021/05/10 - 04:29:39	[34minfo[0m	200      3.9992ms       127.0.0.1 GET /api/system/menu?_t=1620592179130 
+[gin-vben-admin] 2021/05/10 - 04:29:51	[34minfo[0m	200     27.9889ms       127.0.0.1 PUT /api/system/menu/edit 
+[gin-vben-admin] 2021/05/10 - 04:29:51	[34minfo[0m	200      2.9986ms       127.0.0.1 GET /api/system/menu?_t=1620592191752 
