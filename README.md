@@ -12,7 +12,7 @@ go-vben-admin 是一个中后台应用框架，基于（gin, gorm, Casbin,zap,Jw
 
 基于 GORM 的数据库存储，可扩展多种类型数据库
 
-#项目拉取
+# 项目拉取
 
 `git clone --recursive  https://github.com/coderchiang/go-vben-admin.git  `    
 
@@ -21,7 +21,7 @@ go-vben-admin 是一个中后台应用框架，基于（gin, gorm, Casbin,zap,Jw
 
 
 
-#项目启动
+# 项目启动
 
 
 拉取成功后进入项目根目录
@@ -37,12 +37,14 @@ go-ven-admin目录 执行如下命令 赋予可执行权限
 `./up.sh`
 
 到这里项目已经启动完成，启动逻辑在shell脚本中有明确解释，如果部分启动函数对您没用，可以注释掉即可
-##项目演示地址
+
+
+# 项目演示地址
 
 
 http://2wm.top
 
-###目录结构说明
+### 目录结构说明
 暂时还没时间写，先放下吧
 
 ## 交流
