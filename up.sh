@@ -60,11 +60,6 @@ funcBuildSite() {
     fi
 }
 
-funcTouchDir() {
-    if [ ! -d "$1" ]; then
-        mkdir -p $1
-    fi
-}
 
 funcInstallDokcer(){
     sudo yum remove docker \
@@ -102,9 +97,11 @@ funcInstallGo
 #go build 服务端
 funcBuildServer
 #安装nodejs环境
-funcInstallNodejs
+#funcInstallNodejs
+
 #nodejs编译前端
-funcBuildSite
+#funcBuildSite
+
 #安装docker 环境
 funcInstallDokcer
 #初始化docker中Mysql和Redis环境

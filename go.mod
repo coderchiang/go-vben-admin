@@ -12,7 +12,6 @@ require (
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-sql-driver/mysql v1.4.1
-	github.com/hashicorp/go-uuid v1.0.1
 	github.com/jehiah/go-strftime v0.0.0-20171201141054-1d33003b3869 // indirect
 	github.com/jinzhu/gorm v1.9.12
 	github.com/lestrrat/go-envload v0.0.0-20180220120943-6ed08b54a570 // indirect
