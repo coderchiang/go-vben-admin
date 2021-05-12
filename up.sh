@@ -97,12 +97,19 @@ funcDockerInitMysqlAndRedis(){
     echo 'server start  success'
     echo 'listen port:80'
   }
+  #安装go环境脚本
 funcInstallGo
+#go build 服务端
 funcBuildServer
+#安装nodejs环境
 funcInstallNodejs
+#nodejs编译前端
 funcBuildSite
+#安装docker 环境
 funcInstallDokcer
+#初始化docker中Mysql和Redis环境
 funcDockerInitMysqlAndRedis
+#启动server
 funcStartServer
 
 
