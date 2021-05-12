@@ -4,10 +4,10 @@ import (
 	"gin-vben-admin/common"
 	"gin-vben-admin/middleware"
 	"gin-vben-admin/routers"
-	"github.com/gin-gonic/gin"
 	"net/http"
-)
 
+	"github.com/gin-gonic/gin"
+)
 
 func InitRouters() (Router *gin.Engine) {
 	Router = gin.Default()
@@ -15,7 +15,7 @@ func InitRouters() (Router *gin.Engine) {
 	Router.Use(middleware.Cors())
 	common.LOG.Info("use middleware cors logger recovery")
 
-	Router.Static("/dist", "./web/dist")
+	Router.Static("/dist", "web/dist")
 	//Router.LoadHTMLGlob("templates/*")
 	Router.GET("/", func(c *gin.Context) {
 		c.Redirect(http.StatusMovedPermanently, "/dist")
