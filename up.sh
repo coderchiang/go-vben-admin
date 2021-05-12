@@ -55,8 +55,8 @@ funcBuildSite() {
     if [ -d $webDir/dist ]; then
         echo 'site module build  finished'
     else
-        echo "site module build false" 1>&2
-        exit 1
+        echo "site module build false"
+      #exit 1
     fi
 }
 
@@ -93,17 +93,24 @@ funcDockerInitMysqlAndRedis(){
     echo 'listen port:80'
   }
   #安装go环境脚本
-funcInstallGo
+  if ! type go >/dev/null 2>&1; then
+   funcInstallGo
+  fi
+
 #go build 服务端
 funcBuildServer
 #安装nodejs环境
-#funcInstallNodejs
+ if ! type yarn >/dev/null 2>&1; then
+   funcInstallNodejs
+fi
 
-#nodejs编译前端
-#funcBuildSite
+#编译nodejs
+funcBuildSite
 
 #安装docker 环境
-funcInstallDokcer
+ if ! type docker  >/dev/null 2>&1; then
+   funcInstallDokcer
+fi
 #初始化docker中Mysql和Redis环境
 funcDockerInitMysqlAndRedis
 #启动server
