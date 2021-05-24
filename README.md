@@ -12,6 +12,8 @@ go-vben-admin 是一个中后台应用框架，基于（gin, gorm, Casbin,zap,Jw
 
 基于 GORM 的数据库存储，可扩展多种类型数据库
 
+基于swagger在线文档生成
+
 # 项目拉取
 
 `git clone --recursive  https://github.com/coderchiang/go-vben-admin.git  `    
