@@ -2,7 +2,6 @@ package utils
 
 import (
 	"bytes"
-	"fmt"
 	"gin-vben-admin/common"
 	"github.com/dchest/captcha"
 	"net/http"
@@ -11,8 +10,7 @@ import (
 	"time"
 )
 
-// 这里需要自行实现captcha 的gin模式
-func GinCaptchaServeHTTP(w http.ResponseWriter, r *http.Request) {
+func CaptchaServeHTTP(w http.ResponseWriter, r *http.Request) {
 	dir, file := path.Split(r.URL.Path)
 	ext := path.Ext(file)
 	id := file[:len(file)-len(ext)]
@@ -20,7 +18,6 @@ func GinCaptchaServeHTTP(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	fmt.Println("reload : " + r.FormValue("reload"))
 	if r.FormValue("reload") != "" {
 		captcha.Reload(id)
 	}
@@ -53,3 +50,4 @@ func Serve(w http.ResponseWriter, r *http.Request, id, ext, lang string, downloa
 	http.ServeContent(w, r, id+ext, time.Time{}, bytes.NewReader(content.Bytes()))
 	return nil
 }
+

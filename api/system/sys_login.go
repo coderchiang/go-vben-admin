@@ -4,6 +4,7 @@ import (
 	"gin-vben-admin/dto"
 	"gin-vben-admin/middleware"
 	"gin-vben-admin/service"
+	"github.com/dchest/captcha"
 	"github.com/gin-gonic/gin"
 	"strconv"
 	"time"
@@ -17,8 +18,9 @@ func Login(c *gin.Context){
 		service.CreatOpLog(c, loginForm.Username,time.Duration(1),err.Error())
 		return
 	}
-	if true {
-	//if captcha.VerifyString(loginForm.CaptchaId, loginForm.Captcha) {
+	v:=captcha.VerifyString(loginForm.CaptchaId, loginForm.Captcha)
+
+	if v {
 		user, msg, isPass := service.LoginCheck(loginForm.Username,loginForm.Password)
 		if !isPass {
 			middleware.ResponseFail(c,202,msg)
@@ -35,17 +37,23 @@ func Login(c *gin.Context){
 			res.Token =token
 
 			if !ok {
-				middleware.ResponseFail(c,203,msg)
+				middleware.ResponseFail(c,202,msg)
 				service.CreatOpLog(c, loginForm.Username,time.Duration(1),msg)
+
 			}else {
 				middleware.ResponseSucc(c,msg,res)
 				service.CreatOpLog(c, loginForm.Username,time.Duration(1),msg)
+
 			}
 		}
-	}else {
-		middleware.ResponseFail(c,204,"验证码错误")
+	} else {
+		//fmt.Println(v)
+
 		service.CreatOpLog(c, loginForm.Username,time.Duration(1),"captcha verify error!")
+		middleware.ResponseFail(c,201,"验证码错误，请刷新验证码重新输入！")
+
 	}
+
 	return
 }
 

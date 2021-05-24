@@ -11,7 +11,7 @@ func InitBaseRouter(Router *gin.RouterGroup) {
 	Router.POST("/login",v1.Login)
 	Router.POST("/logout", middleware.JWTAuth(), v1.LogOut)
 
-	Router.POST("/captcha", v1.Captcha)
-	Router.GET("/captcha/:captchaId", v1.CaptchaImg)
+	Router.GET("/captcha", v1.Captcha)
+	Router.GET("/captcha/:captchaImg", v1.CaptchaImg)
 
 }

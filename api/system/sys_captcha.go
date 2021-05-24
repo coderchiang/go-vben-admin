@@ -3,21 +3,20 @@ package system
 import (
 	"gin-vben-admin/common"
 	"gin-vben-admin/common/utils"
+	"gin-vben-admin/middleware"
 	"github.com/dchest/captcha"
 	"github.com/gin-gonic/gin"
-	"net/http"
 )
 
 func Captcha(c *gin.Context) {
 	captchaId := captcha.NewLen(common.CONFIG.Captcha.KeyLong)
-	c.JSON(http.StatusOK, gin.H{"msg": "验证码获取成功", "data": map[string]interface{}{
-			"CaptchaId": captchaId,
-			"PicPath":   "/base/captcha/" + captchaId + ".png",
-	},
+	middleware.ResponseSucc(c,"验证码获取成功",map[string]interface{}{
+		"CaptchaId": captchaId,
+		"CaptchaSrc":"http://"+c.Request.Host+c.Request.URL.Path +"/"+ captchaId + ".png",
 	})
 }
 
 func CaptchaImg(c *gin.Context) {
-	utils.GinCaptchaServeHTTP(c.Writer, c.Request)
+	utils.CaptchaServeHTTP(c.Writer, c.Request)
 }
 

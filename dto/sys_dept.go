@@ -1,6 +1,12 @@
 package dto
 
-type SysDept struct {
+type SysDeptOutput struct {
+	Items []*SysDept  `json:"items" `
+	Total  int       `json:"total" `
+
+}
+
+type SysDept  struct {
 	ID     string             `json:"id" `
 	Pid     string             `json:"pid" `
 	DeptName string        `json:"deptName" binding:"required"`
@@ -11,6 +17,16 @@ type SysDept struct {
 	ParentDept string            `json:"parentDept"`
 	Children []*SysDept     `json:"children"`
 
+}
+
+type SysDeptInput struct {
+	ID     string             `json:"id" `
+	Pid     string             `json:"pid" `
+	DeptName string        `json:"deptName" binding:"required"`
+	OrderNo int                `json:"orderNo" `
+	Status  string              `json:"status"`
+	Remark  string              `json:"remark"`
+	ParentDept string            `json:"parentDept"`
 }
 
 

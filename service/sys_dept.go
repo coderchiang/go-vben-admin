@@ -11,7 +11,7 @@ import (
 )
 
 //条件查询
-func GetDeptTree(q dto.QuerySysDept) (DeptTree []*dto.SysDept, total int, err error) {
+func GetDeptTree(q dto.QuerySysDept) (DeptTree dto.SysDeptOutput, err error) {
 	var dept []*dao.SysDept
 	query:= common.DB.Model(&dept)
 	if q.Status!=""{
@@ -22,12 +22,12 @@ func GetDeptTree(q dto.QuerySysDept) (DeptTree []*dto.SysDept, total int, err er
 	}
 	err=query.Order("order_no asc").Order("level desc").Find(&dept).Error
 
-	DeptTree=generateDeptTree(dept)
-	total=len(DeptTree)
+	DeptTree.Items=generateDeptTree(dept)
+	DeptTree.Total=len(DeptTree.Items)
 	return
 }
 
-func SaveDept(dept *dto.SysDept) error{
+func SaveDept(dept dto.SysDept) error{
 	var newDept,ParentDept dao.SysDept
 
 	//判断pid并赋值

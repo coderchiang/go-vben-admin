@@ -2,6 +2,7 @@ package initialize
 
 import (
 	"gin-vben-admin/common"
+
 	"gin-vben-admin/middleware"
 	"gin-vben-admin/routers"
 	"net/http"

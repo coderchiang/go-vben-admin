@@ -9,8 +9,8 @@ type PassWord struct {
 type UserLogin struct {
 	Username string `form:"username" json:"username" binding:"required"`
 	Password string `form:"password" json:"password" binding:"required"`
-	//Captcha   string `json:"captcha" binding:"required"`
-	//CaptchaId string `json:"captchaId" binding:"required"`
+	Captcha   string `json:"captcha" binding:"required"`
+	CaptchaId string `json:"captchaId" binding:"required"`
 }
 
 type LoginSucc struct {

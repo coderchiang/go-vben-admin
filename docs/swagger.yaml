@@ -1,0 +1,160 @@
+definitions:
+  dto.SysDept:
+    properties:
+      children:
+        items:
+          $ref: '#/definitions/dto.SysDept'
+        type: array
+      createTime:
+        type: string
+      deptName:
+        type: string
+      id:
+        type: string
+      orderNo:
+        type: integer
+      parentDept:
+        type: string
+      pid:
+        type: string
+      remark:
+        type: string
+      status:
+        type: string
+    required:
+    - deptName
+    type: object
+  dto.SysDeptInput:
+    properties:
+      deptName:
+        type: string
+      id:
+        type: string
+      orderNo:
+        type: integer
+      parentDept:
+        type: string
+      pid:
+        type: string
+      remark:
+        type: string
+      status:
+        type: string
+    required:
+    - deptName
+    type: object
+  dto.SysDeptOutput:
+    properties:
+      items:
+        items:
+          $ref: '#/definitions/dto.SysDept'
+        type: array
+      total:
+        type: integer
+    type: object
+  middleware.Response:
+    properties:
+      code:
+        type: integer
+      msg:
+        type: string
+      result:
+        type: object
+    type: object
+host: 127.0.0.1:80
+info:
+  contact:
+    email: 2501170033@qq.com
+    name: chrischiang
+    url: http://2wm.top
+  description: Golang api of admin
+  termsOfService: https://github.com/coderchiang/go-vben-admin
+  title: go vben admin API
+  version: "1.0"
+paths:
+  /api/system/dept/add:
+    post:
+      consumes:
+      - application/json
+      description: 添加部门
+      parameters:
+      - description: token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: 部门信息
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/dto.SysDeptInput'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: success
+          schema:
+            allOf:
+            - $ref: '#/definitions/middleware.Response'
+            - properties:
+                result:
+                  type: boolean
+              type: object
+      summary: 添加部门
+      tags:
+      - 部门管理
+  /api/system/dept/list:
+    get:
+      consumes:
+      - application/json
+      description: 获取部门列表
+      parameters:
+      - description: token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: id
+        in: query
+        name: id
+        type: integer
+      - description: 部门名
+        in: query
+        name: deptName
+        type: string
+      - description: 状态
+        in: query
+        name: status
+        type: string
+      - description: 当前页
+        in: query
+        name: page
+        type: string
+      - description: 每页条数
+        in: query
+        name: pageSize
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/middleware.Response'
+            - properties:
+                result:
+                  allOf:
+                  - $ref: '#/definitions/dto.SysDeptOutput'
+                  - properties:
+                      items:
+                        items:
+                          $ref: '#/definitions/dto.SysDept'
+                        type: array
+                    type: object
+              type: object
+      summary: 部门列表
+      tags:
+      - 部门管理
+swagger: "2.0"
